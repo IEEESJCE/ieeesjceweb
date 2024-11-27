@@ -1,0 +1,45 @@
+.executive_committe_card {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 0%;
+  row-gap: 2%;
+  justify-items: center;
+  padding: 5% 10%;
+}
+
+.executive_committe{
+  margin-top: 10%;
+  
+} 
+
+.accordion {
+    background-color: #3e4853;
+    color: #b8c0e7;
+    cursor: pointer;
+    padding:0.5rem 1.5rem;
+    width: 80%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: 5% 10% 1%;
+    
+  }
+  
+.hide
+{
+  display: none;
+}
+
+@media screen and (max-width:768px) {
+  .executive_committe_card{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+}

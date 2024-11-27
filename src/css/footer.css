@@ -1,0 +1,169 @@
+.about_us{
+  display: flex;
+  flex-direction: row;
+background: #000608;
+  color: white;
+  height: 100%;
+  padding:0% 2%;
+  margin-top:6% ;
+  margin-bottom: 0%;
+}
+.IEEE-SJCE{
+width: 52%;
+margin-top: 1%;
+margin-bottom: 1%;
+}
+.IEEE-SJCE h1{
+font-size: 1.4rem;
+width: 100%;
+}
+
+
+.contact_us{
+width: 90%;
+}
+.contact_us h1{
+font-size: 1.2rem;
+width: 100%;
+margin-bottom: 1%;
+}
+
+.contact_us p{
+font-size: .88rem;
+line-height: 1.4rem;
+}
+
+
+
+.importent_links{
+width: 80%;
+/* margin-top: 3%; */
+margin-bottom: 1%;
+}
+.importent_links h1{
+font-size: 1.1rem;
+width: 100%;
+margin-bottom: 2%;
+margin-top: 4%;
+}
+
+.importent_links a{
+color: white;
+display: block;
+font-size: .8rem;
+line-height: 1.4rem;
+}
+
+h1{
+color: #0077b5;
+font-size: 1.8rem;
+margin: 3% 0%;
+}
+.follow_us{
+  margin-bottom: 3%;
+}
+.follow_us h1{
+text-align: center;
+font-size: 1.8rem;
+width: 100%;
+margin-top: 5%;
+color: #0077b5;
+}
+
+.follow_us ul {
+  display: flex;
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.follow_us ul li {
+  list-style: none;
+}
+
+.follow_us ul li a{
+  width: 3rem;
+  height: 3rem;
+  background-color: #8c93a7;
+  text-align: center;
+  line-height: 50px;
+  font-size: 2rem;
+  margin: 0 10px;
+  display: block;
+  left:-25%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #c0d3f5;
+  z-index: 1;
+}
+
+.follow_us ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+
+.follow_us ul li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.follow_us ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+.follow_us ul li a:hover:before {
+  top: 0;
+}
+
+.follow_us ul li:nth-child(1) a:before{
+  background-image: linear-gradient(to right top, #f9ce34, #ffaf31, #ff903d, #ff704d, #ff5160, #f9396e, #ef1f7e, #e0008f, #cf00a0, #b800b3, #960ec5, #6228d7);
+}
+
+.follow_us ul li:nth-child(2) a:before{
+  background: #55acee;
+}
+
+.follow_us ul li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+.follow_us ul li:nth-child(4) a:before {
+  background: #dd3939;
+}
+
+.footer{
+    margin-top: 0%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background: #000608;
+  font-size: 0.8rem;
+  margin-bottom: 0%;
+}
+
+@media screen and (max-width: 750px ) {
+      .about_us{
+    flex-direction: column;
+    margin-top: 15%;
+    padding: 5% 5%;
+  }
+    .follow_us ul{
+        margin: 20% 0% 5% -1.5% ;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,222 @@
+.societies_p{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #b8c0e7;
+    text-align: justify;
+    font-size: 1.1rem;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    line-height: 1.8rem;
+    letter-spacing: .08rem;
+    position: relative;
+
+}
+
+.societies_subheading{
+    font-family: 'Fira Sans', sans-serif;
+    color: #a994ee;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: .18rem;
+    position: relative;
+    padding-left: 8%;
+    /* margin: 0px; */
+    margin-top: 3%;
+}
+.societies_small_subheading{
+    font-family: 'Fira Sans', sans-serif;
+    color: #a994ee;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .18rem;
+    position: relative;
+    padding-left: 8%;
+    margin: 0px;
+}
+.women_eng{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 4%;
+
+    font-family: 'Fira Sans', sans-serif;
+    color: #0095DA;
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: .18rem;
+}
+.robotics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 4%;
+
+    font-family: 'Fira Sans', sans-serif;
+    color: #0095DA;
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: .18rem;
+}
+.std_branch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 4%;
+
+    font-family: 'Fira Sans', sans-serif;
+    color: #0095DA;
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: .18rem;
+}
+
+.elect_society{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 4%;
+
+    font-family: 'Fira Sans', sans-serif;
+    color: #0095DA;
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: .18rem;
+}
+.img1{
+    float: left;
+    width: 18rem;
+    height: 20rem;
+    border: none;
+    margin-right: 2%;
+}
+.img2{
+    float: right;
+    width: 25rem;
+    height: 18rem;
+    border-radius: 10%;
+    border: none;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    object-fit: cover;
+}
+
+.img3{
+   float: right;
+    width: 25rem;
+    height: 18rem;
+    border-radius: 10%;
+    border: none;
+    margin-left: 2%;
+    margin-: 2%;
+    object-fit: cover;      
+}
+.img4{
+    float: left;
+    width: 20rem;
+    height: 15rem;
+    /* margin: .7rem; */
+    border-radius: 10%;
+    border: none;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    object-fit: cover;
+    padding:  0px 15px;
+}
+
+.img5{
+    float: left;
+    width: 18rem;
+    height: 20rem;
+    border: none;
+    margin-right: 2%;
+}
+.img6{
+    float: right;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 10%;
+    border: none;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    object-fit: cover;
+}
+
+.img7{
+    float: right;
+    width: 25rem;
+    height: 18rem;
+    border-radius: 10%;
+    border: none;
+    margin-left: 2%;
+    padding-bottom: 2%;
+    object-fit: cover;
+}
+.ml12 {
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}   
+ @media screen and (max-width: 750px){
+    .societies_p{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1{
+        width:18rem;
+        height: 15rem;
+        margin:8% 0%;
+        float: none;
+    }
+    .img2{
+        width:19rem;
+        height: 15rem;
+        margin:8% 0%;
+        float: none;
+    }
+    .img3{
+        width:19rem;
+        height: 15rem;
+        margin:8% 0%;
+        float: none;
+    }
+    .img4{
+        width:17rem;
+        height: 13rem;
+        margin:8% 0%;
+        float: none;
+    }
+    .img5{
+        width:18rem;
+        height: 15rem;
+        margin:8% 0%;
+        float: none;
+    }
+    .img6{
+        width:19rem;
+        height: 15rem;
+        margin:8% 0%;
+        float: none;
+    }
+    .img7{
+        width:19rem;
+        height: 15rem;
+        margin:8% 0%;
+        float: none;
+        padding: auto;
+    }
+}

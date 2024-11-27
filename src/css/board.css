@@ -1,0 +1,78 @@
+
+.wd_p , .ed_p , .magzine_p{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #b8c0e7;
+    text-align: justify;
+    font-size: 1.1rem;
+    padding-top: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 2%;
+    line-height: 1.8rem;
+    letter-spacing: .08rem;
+    position: relative;
+}
+p{
+    position: relative;
+    margin-top: 1.5%;
+}
+.svg_gif{
+    width: 20%;
+    height: 250px;
+    float: left;
+    border:none;
+    /* box-shadow: 0px 10px 10px 3px rgba(22, 44, 53, 0.3); */
+    position: relative;
+    margin-top: -1%;
+    margin-right: 1%;
+
+}
+.wd_p img{
+    height: 18rem;
+    width: 22rem;
+    float: right;
+    margin-left: 2%;
+    box-shadow: 0 0 8px 8px rgb(61, 68, 71) inset;
+    border: none;
+    border-radius: 50%;
+}
+.magzine_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.magzine_thumbnail_div
+{
+    width:100%;
+    display: flex;
+    justify-content: center; 
+}
+.magzine_thumbnail_div img{
+    height:400px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 8px rgb(61, 68, 71) inset;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5%;
+    /* padding: 2px; */
+    margin-bottom: 3%;
+}
+
+@media  screen and (max-width:768px) {
+    .wd_p , .ed_p , .magzine_p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:0 4%;
+    }
+    .svg_gif{
+        width:17rem;
+        height: 13rem;
+    }
+}

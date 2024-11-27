@@ -1,0 +1,206 @@
+.contact_us_div{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 100vw;
+    height: fit-content;
+}
+
+.con-main{
+    display: flex;
+    justify-content: center;
+    padding: 0% 5%;
+    height: fit-content;
+    /* background-color:aqua; */
+}
+.con-main-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 800px;
+    height: 450px;
+    
+    /* margin-top: 100px;
+    margin-left:100px; */
+    border: #0095da solid 2px;
+}
+.con-main-form input,textarea{
+    background-color: rgb(61, 72, 83);
+    border: none;
+    border-radius: 5px;
+    color: rgb(166, 205, 241);
+    font-size: 15px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* outline: none; */
+}
+.con-main-form ::placeholder{
+    color: rgb(166, 205, 241);
+    position: relative;
+    left: 0%;
+    top: 10%;
+}
+.con-form-h1{
+    color: #0095da;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.con-form-inp{
+    width:500px;
+    height: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.con-form-inm{
+    width:500px;
+    height: 35px;
+    margin-left: 50px;
+}
+.con-form-btn{
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom:30px;
+    background-color: #0095da;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 15px;
+}
+.con-form-btn:hover{
+    /* background-color: #0095da;
+    color: #ffffff; */
+    scale: 1.1;
+    cursor: pointer;
+}
+.con-main-info{
+    margin-top: 150px;
+    display: block;
+    margin-left: 100px;
+}
+.con-info-h1{
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-size: 50px;
+}
+.con-info-p{
+    margin-top: 10px;
+    color: #ffffff;
+    font-size:30px;
+}
+.con-info-icon{
+    margin:10px;
+}
+
+.map_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 450px;
+
+}
+
+ 
+.service {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem; */
+}
+ 
+.service .box {
+    padding: 20px;
+    /* margin: 3px 6px;
+    border-radius: 28px; */
+    max-width: 321px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.service_para{
+
+    font-family: sans-serif;    
+    text-align: center;
+    font-size: 1.3rem;
+    color: #b8c0e7;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* .service .box #phone{
+  height: 160px !important;
+} */
+ 
+
+
+.service_link{
+  text-decoration: none;
+  color: #0095da;
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+
+/* mobile section */
+@media only screen and (max-device-width: 768px) {
+
+    .contact_us_div{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* width: 100vw; */
+        height: fit-content;
+    }
+    /* css for mobile section */
+    .con-main-info{
+        display: none;
+    }
+    .con-main-form{
+        display: block;
+        margin-top: 100px;
+        margin-left:0px;
+        border-radius:5%;
+        padding-top: 20%;
+    }
+    .con-form-inp{
+        width:280px;
+        height: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .con-form-inm{
+        width:300px;
+        height: 35px;
+        margin-left: 20px;
+    }
+    .con-form-h1{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    /* .con-form-btn{
+        width: 100px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom:30px;
+        background-color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 15px;
+    } */
+}
